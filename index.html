@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site do Heron</title>
-    <!-- Link do Google Fonts -->
+    <!-- link do google fonts (nao sei se ta certo) -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- Link do CSS principal -->
+    <!-- link pra vincular o html com o css -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,23 +15,26 @@
         <h2 class="destaque">BIOGRAFIA.</h2>
         <p>Kendrick Lamar Duckworth é um rapper, compositor e músico norte-americano. Considerado um dos melhores rappers de todos os tempos, ele recebeu o Prêmio Pulitzer em 2018, tornando-se o primeiro músico fora dos gêneros clássico e jazz a receber a homenagem.</p>
         <h2 class="destaque">DISCOGRAFIA.</h2>
+        <!--"ul" serve para fazer uma lista com um pontinho-->
         <ul>
             <li>Section.80</li>
             <li>good kid m.A.A.d City</li>
             <li>To Pimp A Butterfly</li>
             <li>untitled unmastered.</li>
-            <li class="destaque">DAMN.</li>
+            <li>DAMN.</li>
             <li>Mr. Morale & The Big Steppers</li>
             <li>GNX</li>
         </ul>
-        <!--para eu colocar uma imagem eu preciso por ./nome da pasta onde salve a imagem/nome da imagem, posso usar so o "img" para por uma imagem-->
-        <img src="./img/section80.jpg" class="album-cover" alt="">
-        <img src="./img/goodkidmaadcity.jpg" class="album-cover" alt="">
-        <img src="./img/topimpabutterfly.jpg" class="album-cover" alt="">
-        <img src="./img/untitledunmastered.jpg" class="album-cover" alt="">
-        <img src="./img/damn.jpg" class="album-cover" alt="">
-        <img src="./img/mrmorale&thebigsteppers.jpg" class="album-cover" alt="">
-        <img src="./img/gnx.jpg" class="album-cover" alt="">
+        <!--para eu colocar uma imagem eu preciso por "./nome da pasta onde salve a imagem/nome da imagem", uso o "img" para por uma imagem-->
+        <div class="album-container">
+            <img src="./img/section80.jpg" class="album-cover" alt="Section.80">
+            <img src="./img/goodkidmaadcity.jpg" class="album-cover" alt="good kid m.A.A.d city">
+            <img src="./img/topimpabutterfly.jpg" class="album-cover" alt="To Pimp A Butterfly">
+            <img src="./img/untitledunmastered.jpg" class="album-cover" alt="untitled unmastered.">
+            <img src="./img/damn.jpg" class="album-cover" alt="DAMN.">
+            <img src="./img/mrmorale&thebigsteppers.jpg" class="album-cover" alt="Mr. Morale & The Big Steppers">
+            <img src="./img/gnx.jpg" class="album-cover" alt="GNX">
+        </div>
 </body>
 
 </html>

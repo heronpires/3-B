@@ -25,12 +25,12 @@ p {
     margin: 0 auto;
     line-height: 1.6;
 }
-
+/* deixa a lista do nome dos albuns centralizado*/
 ul {
     list-style-position: inside;
     text-align: center;
 }
-
+/* muda a fonte e a cor para todos os textos para o mesmo estilo do DAMN.*/
 .destaque {
     font-family: "Times New Roman", serif;
     color: red;
@@ -39,4 +39,11 @@ ul {
 .album-cover {
     width: 250px;
     height: auto;
+}
+
+.album-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centraliza as imagens */
+    gap: 10px; /* espaçamento entre as imagens */
 }
