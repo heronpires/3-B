@@ -30,3 +30,13 @@ ul {
     list-style-position: inside;
     text-align: center;
 }
+
+.destaque {
+    font-family: "Times New Roman", serif;
+    color: red;
+}
+/* muda o tamanho de todas as imagens com a classe album cover*/
+.album-cover {
+    width: 250px;
+    height: auto;
+}
