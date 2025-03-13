@@ -25,3 +25,8 @@ p {
     margin: 0 auto;
     line-height: 1.6;
 }
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+}
