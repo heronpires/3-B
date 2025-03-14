@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +14,9 @@
 <body>
     <h1 id="titulo">KENDRICK LAMAR.</h1>
     <h2 class="destaque">BIOGRAFIA.</h2>
-    <p><span class="destaque">Kendrick Lamar Duckworth</span> é um rapper, compositor e músico norte-americano. Considerado um dos melhores rappers de todos os tempos, ele recebeu o Prêmio Pulitzer em 2018, tornando-se o primeiro músico fora dos gêneros clássico e jazz a receber a homenagem.</p>
+    <p><span class="destaque">Kendrick Lamar Duckworth</span> é um rapper, compositor e músico norte-americano.
+        Considerado um dos melhores rappers de todos os tempos, ele recebeu o Prêmio Pulitzer em 2018, tornando-se o
+        primeiro músico fora dos gêneros clássico e jazz a receber a homenagem.</p>
     <h2 class="destaque">DISCOGRAFIA.</h2>
     <!--"ul" serve para fazer uma lista com um pontinho-->
     <ul>
@@ -35,26 +38,11 @@
         <img src="./img/mrmorale&thebigsteppers.jpg" class="album-cover" alt="Mr. Morale & The Big Steppers">
         <img src="./img/gnx.jpg" class="album-cover" alt="GNX">
     </div>
+    <h2>Prêmios</h2>
 
 
-    <!--tudo isso que vc vai ler abaixo eu pedi pro chatgpt fazer, tava so fazendo um teste para saber se tem como fazer isso, não pretendo estudar javascript agora, então não leve tão a serio esse codigo-->
-    <script>
-        window.onload = function() {
-    // Defina as imagens que você quer alternar
-    var imagens = [
-        './img/kendrick.jpg', // imagem 1
-        './img/kendrick2.jpg', // imagem 2
-        './img/kendrick3.png'  // imagem 3
-    ];
 
-    // Gera um índice aleatório para escolher uma das imagens
-    var randomIndex = Math.floor(Math.random() * imagens.length);
-
-    // Aplica a imagem de fundo ao título
-    var titulo = document.getElementById('titulo');
-    titulo.style.backgroundImage = 'url(' + imagens[randomIndex] + ')';
-};
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
