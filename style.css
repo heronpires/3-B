@@ -8,20 +8,28 @@ body {
 }
 
 h1 {
-    font-weight: 700;
-    font-size: 2.5rem;
+    font-weight: 700; /* grossura da fonte*/
+    font-size: 3.5rem; /* tamanho da fonte*/
+    /* background-image: url('./img/kendrick.jpg'); /* caminho da imagem */
+    background-size: cover; /* faz a imagem cobrir todo o fundo */
+    background-position: center; /* centraliza a imagem */
+    padding: 175px; /* dá mais espaço em volta do texto */
+    font-family: "Times New Roman", serif; /* fonte (a mesma do .destaque)*/
+    color: rgb(255, 0, 0); /* cor do titulo*/
+    text-align: center; /* centraliza o título */
+    letter-spacing: 4px; /* aumenta o espaçamento entre as letras */   
 }
 
 h2 {
-    font-weight: 400;
-    font-size: 1.8rem;
-    margin-top: 20px;
+    font-weight: 400; /* grossura do fonte*/
+    font-size: 1.8rem; /* tamanho da fonte*/
+    margin-top: 20; /* distancia do ultimo texto*/
 }
 
 p {
-    font-weight: 300;
-    font-size: 1.2rem;
-    max-width: 800px;
+    font-weight: 300; /* grossura do fonte*/
+    font-size: 1.2rem; /* tamanho da fonte*/
+    max-width: 900px; /* largura maxima*/
     margin: 0 auto;
     line-height: 1.6;
 }
