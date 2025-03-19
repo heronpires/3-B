@@ -55,3 +55,23 @@ ul {
     justify-content: center; /* centraliza as imagens */
     gap: 10px; /* espaçamento entre as imagens */
 }
+
+.awards {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 40px; /* Espaço entre a imagem e a lista */
+    padding: 50px;
+}
+
+.grammy {
+    width: 400px;
+    height: auto;
+}
+
+.mousezoom {
+    transition: transform 0.3s ease-in-out; /* animação smooth (eu acho) */
+}
+.mousezoom:hover { /* o hover faz alguma ação quando o mouse passa por cima! */
+    transform: scale(1.1); /* aumenta 10% quando o mouse passa */
+}
