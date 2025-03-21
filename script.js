@@ -1,4 +1,4 @@
-// tudo isso que vc vai ler abaixo eu pedi pro chatgpt fazer, não pretendo estudar javascript agora, então não leve tão a serio esse codigo
+// meu amigo Henzo me ajudou com o codigo java.
 window.onload = function () {
     // Defina as imagens que você quer alternar
     let imagens = [
