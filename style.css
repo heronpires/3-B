@@ -1,16 +1,16 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #121212;
-    color: white;
+body { /* mexe no site inteiro*/
+    font-family: 'Poppins', sans-serif; /* fonte principal do site*/
+    background-color: #121212; /* cor do fundo*/
+    color: white; /* cor do texto*/
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: center; /* centraliza todo o texto*/
 }
 
-h1 {
+h1 { /* mexe somente no titulo principal (no caso o KENDRICK LAMAR.)*/
     font-weight: 700; /* grossura da fonte*/
     font-size: 3.5rem; /* tamanho da fonte*/
-    /* background-image: url('./img/kendrick.jpg'); /* caminho da imagem */
+    /* background-image: url('img/kendrick.jpg'); /* caminho da imagem */
     background-size: cover; /* faz a imagem cobrir todo o fundo */
     background-position: center; /* centraliza a imagem */
     padding: 175px; /* dá mais espaço em volta do texto */
@@ -23,7 +23,9 @@ h1 {
 h2 {
     font-weight: 400; /* grossura do fonte*/
     font-size: 1.8rem; /* tamanho da fonte*/
-    margin-top: 20; /* distancia do ultimo texto*/
+    margin-top: 20;
+    font-family: "Times New Roman", serif;
+    color: red;
 }
 
 p {
@@ -31,25 +33,27 @@ p {
     font-size: 1.2rem; /* tamanho da fonte*/
     max-width: 900px; /* largura maxima*/
     margin: 0 auto;
-    line-height: 1.6;
+    line-height: 1.6; /* distância entre as linhas*/
 }
-/* deixa a lista do nome dos albuns centralizado*/
-ul {
-    list-style-position: inside;
-    text-align: center;
+
+ul { 
+    list-style-position: inside; /* deixa o pontinho centralizado junto com o texto*/
+    text-align: center; /* lista centralizada*/
 }
-/* muda a fonte e a cor para todos os textos para o mesmo estilo do DAMN.*/
-.destaque {
+
+.destaque { /* classe que muda o estilo do texto para ficar parecido com o DAMN.*/
     font-family: "Times New Roman", serif;
     color: red;
+    font-weight: 400;
+    font-size: 1.4rem;
 }
-/* muda o tamanho de todas as imagens com a classe album cover*/
-.album-cover {
+
+.album-cover { /* muda o tamanho de todas as imagens com a classe album-cover*/
     width: 250px;
     height: auto;
 }
 
-.album-container {
+.album-container { /*essa classe serve pra "div" que eu coloquei os albuns fique alinhada corretamente*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* centraliza as imagens */
@@ -58,10 +62,10 @@ ul {
 
 .awards {
     display: flex;
-    align-items: center; /* Alinha verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-    gap: 40px; /* Espaço entre a imagem e a lista */
-    padding: 50px;
+    align-items: center; /* alinha verticalmente*/
+    justify-content: center; /* centraliza horizontalmente*/
+    gap: 40px; /* espaço entre a imagem e a lista*/
+    padding: 50px; /* distancia entre o ultimo titulo e o proximo (pelo que parece)*/
 }
 
 .grammy {
