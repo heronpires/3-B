@@ -14,3 +14,5 @@ window.onload = function () {
     let titulo = document.getElementById('titulo');
     titulo.style.backgroundImage = 'url("' + imagens[randomIndex] + '")';
 };
+// aprendi no alura (não está tão bom assim mas pelo menos tem uma animação)
+ScrollReveal().reveal('.animacao', { delay: 300 });
