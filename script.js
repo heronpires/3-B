@@ -15,4 +15,8 @@ window.onload = function () {
     titulo.style.backgroundImage = 'url("' + imagens[randomIndex] + '")';
 };
 // aprendi no alura (não está tão bom assim mas pelo menos tem uma animação)
-ScrollReveal().reveal('.animacao', { delay: 300 });
+
+// ScrollReveal().reveal('.animacao', { delay: 300 });
+ScrollReveal().reveal('h1', { delay: 150 });
+ScrollReveal().reveal('h2', { delay: 150 });
+ScrollReveal().reveal('p', { delay: 300 });
